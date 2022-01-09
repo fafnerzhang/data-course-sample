@@ -35,6 +35,7 @@ sklearn, pandas, surprise, yellowbrick
 ## 結果
 
 ![](https://i.imgur.com/Disc5Ev.png)
+
 由上圖可見user_based與surprise方法幾乎無法對原本的rule_base推薦產生正面影響
 原因是因為user_based方法計算矩陣後，只能對３位使用者進行推薦，surprise方法則是根據不同時間資料對2, 2, 4, 11位使用者推薦了商品，這兩種方法影響的使用者數量都太少了，感覺不出來實際效能的差別，而在item_based方法的部分推薦的使用者較多，總共對32位使用者推薦了商品,但推薦商品的準確度不夠高，因此recall還低於本來的baseline
 

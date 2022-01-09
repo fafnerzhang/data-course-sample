@@ -31,7 +31,7 @@ sklearn, pandas, surprise, yellowbrick
     * 將評論數前k多的商品做為推薦商品
 * surprise
     * 使用KNNWithMeans做為分類演算法
-    * 使用item_base, user_base與不同距離計算推薦結過
+    * 使用item_base, user_base與不同距離計算推薦結果
 ## 結果
 
 ![](https://i.imgur.com/Disc5Ev.png)
